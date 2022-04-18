@@ -5,10 +5,13 @@ Analysis of cars by mpg and suspension coils using R
 
 ## Linear Regression to Predict MPG
 - Which variables/coefficients provided a non-random amount of variance to the mpg values in the dataset?
+- Using the Pr(>|t|) values, ground clearance and vehicle weight provided a non-random amount of variance to the mpg values in the dataset. Using the linear model, ground clearane, vehicle weight, and AWD all have a non-zero slope, which means their values are not determined by random chance
 - ![lm_deliverable1](https://user-images.githubusercontent.com/95397823/163735271-5c44ee2e-0f7b-4060-9692-f228d908360a.PNG)
 
 - Is the slope of the linear model considered to be zero? Why or why not?
+- The p-value of our linear model is 5.35e-11, which is much smaller than our confidence level of 0.05. This means that the slope of our linear model is not zero.
 - Does this linear model predict mpg of MechaCar prototypes effectively? Why or why not?
+- The linear model has an R-squared value of 0.7149, which means that the model is predicting the mpg of the MechaCar prototypes rather effectively.
 - ![lm_summary_deliverable1](https://user-images.githubusercontent.com/95397823/163735274-70de3d26-c71b-4a93-a5d0-39a483f287ef.PNG)
 
 
